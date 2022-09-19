@@ -101,7 +101,7 @@ img.rounded {
 
 </div>
 
-<h8>Khoury College of Computer Science, Northeastern University</h8>
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Science, Northeastern University
 
 ## Elevator Pitch
 
