@@ -58,7 +58,10 @@ img.rounded {
   float: left;
   width: 150px;
 }
+
 </style>
+
+
 
 ## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF]()&nbsp;&nbsp;•&nbsp;&nbsp; [CODE]()&nbsp;&nbsp;•&nbsp;&nbsp;**Arxiv Preprint**
 
@@ -105,11 +108,15 @@ img.rounded {
 
 ## Elevator Pitch
 
-In our paper, we will first define the edge grasp. Then, describe our representation of edge grasp step by step. After that, we explore and realize the $\mathrm{SE}(3)$ symmetry inside our representation.
+In our paper, we first define the edge grasp. Then, describe our representation of edge grasp step by step. After that, we explore and realize the $\mathrm{SE}(3)$ symmetry inside our representation.
 The simulated experiment part of our paper is based on the simulator of  [VGN](https://github.com/ethz-asl/vgn), a simulation environment in PyBullet for 3D grasping. Specifically, we test two different scenarios of grasping task, Packed and Pile.
 Finally, we implement our method on the real robot and test four different object sets. Check our paper for more details.
 
 ### Sampling-based grasp detection network
+<img src=”img/rob.jpeg” ALIGN=”right” />
+Most sample-based grasp detection methods have a clear representation of grasp poses. Our 6-DoF edge grasp is defined with an approach point $p_a$ and a contact point $p_c$.
+Assuming that we can estimate the object surface normal $n_c$ at point $p_c$, $(p_a, p_c)$ defines a grasp orientation $R$ where the gripper fingers move parallel to the vector $n_c$ and the gripper approaches the object along the vector $a_{ac} = n_c \times (n_c \times (p_a - p_c))$.
+The gripper center $C$ is positioned such that $p_a$ is directly between the fingers and $p_c$ is at a desired point of contact on the finger, $C = p_a - \delta a_{ac}$. Here, $\delta = G_d + (p_a-p_c)^T a_{ac}$ denotes the distance between the center of the gripper and $p_a$ and $G_d$ denotes gripper depth.
 
 ### $\mathrm{SE}(3)$ invariance inside our grasp function
 
