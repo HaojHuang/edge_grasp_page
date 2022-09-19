@@ -81,7 +81,7 @@ img.rounded {
   <div class="people_column">
     <img src="img/xupeng.jpeg" class="rounded">
     <p class="caption">
-      <a href="https://pointw.github.io">Dian Wang</a>
+      <a href="https://zxp-s-works.github.io/">Xupeng Zhu</a>
     </p>
   </div>
 
