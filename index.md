@@ -101,22 +101,17 @@ img.rounded {
 
 </div>
 
-Khoury College of Computer Science, Northeastern University
+<center>Khoury College of Computer Science, Northeastern University</center>
 
 ## Elevator Pitch
 
-### Sampling-based grasp detection network
-
-### Highlight
-
-In our paper, we will first define the edge grasp. Then, describe our representation of edge grasp step by step. After that we explore the $\mathrm(SE)(3)$ symmetry inside our representation.
-
+In our paper, we will first define the edge grasp. Then, describe our representation of edge grasp step by step. After that, we explore and realize the $\mathrm{SE}(3)$ symmetry inside our representation.
 The simulated experiment part of our paper is based on the simulator of  [VGN](https://github.com/ethz-asl/vgn), a simulation environment in PyBullet for 3D grasping. Specifically, we test two different scenarios of grasping task, Packed and Pile.
-
 Finally, we implement our method on the real robot and test four different object sets. Check our paper for more details.
 
-### Performance Comparison
+### Sampling-based grasp detection network
 
+### $\mathrm{SE}(3) invariance inside our grasp function$
 
 
 ## Real Robot Experiment
