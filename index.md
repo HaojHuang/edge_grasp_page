@@ -101,7 +101,7 @@ img.rounded {
 
 </div>
 
-<center>Khoury College of Computer Science, Northeastern University</center>
+<h8>Khoury College of Computer Science, Northeastern University</h8>
 
 ## Elevator Pitch
 
@@ -111,7 +111,7 @@ Finally, we implement our method on the real robot and test four different objec
 
 ### Sampling-based grasp detection network
 
-### $\mathrm{SE}(3) invariance inside our grasp function$
+### $\mathrm{SE}(3)$ invariance inside our grasp function
 
 
 ## Real Robot Experiment
