@@ -57,11 +57,7 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
     vertical-align: baseline;
     text-align: center;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 
 img.rounded {
