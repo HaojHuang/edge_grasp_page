@@ -131,12 +131,11 @@ handle.
 It is natural to consider using **edge** that connects the approch point and the contact point to represent such grasp. Specically, we use a graph neural network to generate the local feature of the contatc point and the global feature of the approach point
 to build our edge feature. Let's define $P$ as the observed point cloud and $\alpha$ as the 6-DoF grasp. The grasp evaluation problem is to find a function $\Phi: (P, \alpha) \mapsto [0,1]$, that denotes the quality of grasp $\alpha$.
 Notice that $\Phi$ is invariant to translation and rotation in the sense that $\Phi(g \cdot P, g \cdot \alpha) = \Phi(P,\alpha)$ for an arbitrary $g \in \mathrm{SE}(3)$. In other words, the predicted quality of a grasp attempt should be invariant to transformation of the object to be grasped and the grasp pose by the same rotation and translation.
-
+We enable rotational invariance with two different approaches. The first approach is to use data augmentation and the second approach is to use an $\mathrm{SO}(3)$-equivariant model, Vector Neurons. As we show in our paper, leveraging $\mathrm{SO}(3)$ symmetries is beneficial to learn a grasp function.
 
 ## Real Robot Experiment
 We measure physical grasp performance with 4 different object sets. As shown in the figure below, the first row shows the object sets and the second row showns the configurations. From the left column
-to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects. 
-We enable rotational invariance with two different approaches. The first approach is to use data augmentation and the second approach is to use an $\mathrm{SO}(3)$-equivariant model, Vector Neurons. As we show in our paper, leveraging $\mathrm{SO}(3)$ symmetries is beneficial to learn a grasp function.
+to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects.
 <div>
   <div class="column_quarter1">
     <img src="img/4a.png" style="width:95%">
