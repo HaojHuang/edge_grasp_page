@@ -150,19 +150,22 @@ The table above shows the grasp success rate (GSR that measures the ratio of suc
 the real robot experiments.
 
 <div>
-  <div class="column_quarter">
+  <div class="column_l">
     <img src="img/packed_real.gif" style="width:99%">
     <p class="caption">5 packed objects</p>
   </div>
-  <div class="column_quarter">
+  <div class="column_l">
     <img src="img/pile_real.gif" style="width:99%">
     <p class="caption">5 pile objects </p>
   </div>
-  <div class="column_quarter">
+</div>
+
+<div>
+  <div class="column_l">
     <img src="img/test_hard_real.gif" style="width:99%">
     <p class="caption">10 test hard objects</p>
   </div>
-  <div class="column_quarter">
+  <div class="column_l">
     <img src="img/adversarial_real.gif" style="width:99%">
     <p class="caption">8 Berkeley adversarial objects</p>
   </div>
