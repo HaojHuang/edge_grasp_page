@@ -11,6 +11,7 @@ MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']], processEs
 Given point cloud input, the problem of 6-DoF grasp pose detection is to identify a set of hand poses in $\mathrm{SE}(3)$ from which an object can be successfully grasped. This important problem has many practical applications. Here we propose a novel method and neural network model that enables better grasp success rates relative to what is available in the literature. The method takes standard point cloud data as input and works well with single-view point clouds observed from arbitrary viewing directions.
 
 <style>
+
 .column {
   float: left;
   width: 33.33%;
@@ -24,26 +25,19 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
     vertical-align: baseline;
     text-align: center;
 }
-
-
 .column_quater {
   float: left;
   width: 24.00%;
 }
-
-
 .column_l {
   float: left;
   width: 50.00%;
 }
-
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-
-
 
 
 img.rounded {
