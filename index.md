@@ -144,6 +144,7 @@ we measure physical grasp performance with 4 different object sets, as shown in 
 <p align="center">
   <img src="img/real_table.png" width="1000px">
 </p>
+
 ## Citation
 ```
 
