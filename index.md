@@ -44,9 +44,10 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
   display: table;
 }
 
+
 .column_quater {
   float: left;
-  width: 25.00%;
+  width: 24.00%;
 }
 .lc{
   float: left;
@@ -57,7 +58,6 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
     vertical-align: baseline;
     text-align: center;
 }
-
 
 
 img.rounded {
@@ -157,6 +157,7 @@ The gripper center $C$ is positioned such that $p_a$ is directly between the fin
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
 </div>
+
 <p></p><br>
 
 
