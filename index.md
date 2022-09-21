@@ -118,7 +118,8 @@ The gripper center $C$ is positioned such that $p_a$ is directly between the fin
 
 
 ## Real Robot Experiment
-we measure physical grasp performance with 4 different object sets, as shown in the figure below.
+We measure physical grasp performance with 4 different object sets. As shown in the figure below, the first row shows the object sets and the second row showns the configurations. From the left column
+to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects. 
 <div>
   <div class="column_quater">
     <img src="img/4a.png" style="width:80%">
