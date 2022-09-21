@@ -184,11 +184,11 @@ the real robot experiments.
     <p class="caption">5 pile objects </p>
   </div>
   <div class="column_quarter">
-    <img src="img/test_hard_real1.gif" style="width:99%">
+    <img src="img/test_hard_real.gif" style="width:99%">
     <p class="caption">10 test hard objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/adversarial_real1.gif" style="width:99%">
+    <img src="img/adversarial_real.gif" style="width:99%">
     <p class="caption">8 Berkeley adversarial objects</p>
   </div>
 </div>
