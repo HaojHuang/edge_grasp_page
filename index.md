@@ -59,6 +59,15 @@ img.rounded {
   width: 150px;
 }
 
+img {
+      float: left;
+      margin: 5px;
+    }
+  
+    p {
+      text-align: justify;
+      font-size: 25px;
+    }
 </style>
 
 
