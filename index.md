@@ -27,7 +27,7 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
 }
 .column_quater {
   float: left;
-  width: 24.00%;
+  width: 20.00%;
 }
 .column_l {
   float: left;
@@ -38,7 +38,6 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
   clear: both;
   display: table;
 }
-
 
 img.rounded {
   object-fit: cover;
@@ -58,7 +57,7 @@ img.rounded {
 
 
 
-## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF]()&nbsp;&nbsp;•&nbsp;&nbsp; [CODE Coming soon]()&nbsp;&nbsp;•&nbsp;&nbsp;**Arxiv Preprint**
+## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF]()&nbsp;&nbsp;•&nbsp;&nbsp; [CODE coming soon]()&nbsp;&nbsp;•&nbsp;&nbsp;**Arxiv Preprint**
 
 <div style="width:100%; display:flex">
   
@@ -125,23 +124,23 @@ The gripper center $C$ is positioned such that $p_a$ is directly between the fin
     <img src="img/4a.png" style="width:100%">
     <p class="caption">10 packed objects</p>
   </div>
-
   <div class="column_quarter">
     <img src="img/4b.png" style="width:100%">
     <p class="caption">10 pile objects </p>
   </div>
-
   <div class="column_quarter">
     <img src="img/4c.png" style="width:100%">
     <p class="caption">20 test hard objects</p>
   </div>
-
   <div class="column_quarter">
     <img src="img/4d.png" style="width:100%">
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
 </div>
 
+<p align="center">
+  <img src="img/real_table.png" width="1000px">
+</p>
 ## Citation
 ```
 
