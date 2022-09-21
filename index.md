@@ -25,7 +25,7 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
     vertical-align: baseline;
     text-align: center;
 }
-.column_quater {
+.column_quarter {
   float: left;
   width: 25.00%;
 }
@@ -122,20 +122,20 @@ We measure physical grasp performance with 4 different object sets. As shown in 
 to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects. 
 
 <div>
-  <div class="column_quater">
-    <img src="img/4a.png" style="width:10%">
+  <div class="column_quarter">
+    <img src="img/4a.png" style="width:95%">
     <p class="caption">10 packed objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/4b.png" style="width:10%">
+    <img src="img/4b.png" style="width:95%">
     <p class="caption">10 pile objects </p>
   </div>
   <div class="column_quarter">
-    <img src="img/4c.png" style="width:10%">
+    <img src="img/4c.png" style="width:95%">
     <p class="caption">20 test hard objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/4d.png" style="width:10%">
+    <img src="img/4d.png" style="width:95%">
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
 </div>
@@ -150,7 +150,7 @@ The table above shows the grasp success rate (GSR that measures the ratio of suc
 the real robot experiments.
 
 <div>
-  <div class="column_quater">
+  <div class="column_quarter">
     <img src="img/packed_real.gif" style="width:90%">
     <p class="caption">10 packed objects</p>
   </div>
