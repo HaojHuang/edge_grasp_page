@@ -168,7 +168,7 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
 <p></p><br>
 
 <p align="center">
-  <img src="img/real_table.png" width="500px">
+  <img src="img/real_table.png" width="650px">
 </p>
 
 The table above shows the grasp success rate (GSR that measures the ratio of successful grasps to total grasps) and declutter rate (DR that measures the ratio of objects removed successfully to the number of total objects presented) of
