@@ -143,7 +143,7 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
 <p></p><br>
 
 <p align="center">
-  <img src="img/real_table.png" width="1000px">
+  <img src="img/real_table.png" width="800px">
 </p>
 
 The table above shows the grasp success rate (GSR that measures the ratio of successful grasps to total grasps) and declutter rate (DR that measures the ratio of objects removed successfully to the number of total objects presented) of
@@ -151,20 +151,20 @@ the real robot experiments.
 
 <div>
   <div class="column_quarter">
-    <img src="img/packed_real.gif" style="width:90%">
-    <p class="caption">10 packed objects</p>
+    <img src="img/packed_real.gif" style="width:99%">
+    <p class="caption">5 packed objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/pile_real.gif" style="width:90%">
-    <p class="caption">10 pile objects </p>
+    <img src="img/pile_real.gif" style="width:99%">
+    <p class="caption">5 pile objects </p>
   </div>
   <div class="column_quarter">
-    <img src="img/test_hard_real.gif" style="width:90%">
-    <p class="caption">20 test hard objects</p>
+    <img src="img/test_hard_real.gif" style="width:99%">
+    <p class="caption">10 test hard objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/adversarial_real.gif" style="width:90%">
-    <p class="caption">12 Berkeley adversarial objects</p>
+    <img src="img/adversarial_real.gif" style="width:99%">
+    <p class="caption">8 Berkeley adversarial objects</p>
   </div>
 </div>
 
