@@ -118,7 +118,7 @@ The gripper center $C$ is positioned such that $p_a$ is directly between the fin
 
 
 ## Real Robot Experiment
-
+we measure physical grasp performance with 4 different object sets, as shown in the figure below.
 <div>
   <div class="column_quater">
     <img src="img/4a.png" style="width:80%">
