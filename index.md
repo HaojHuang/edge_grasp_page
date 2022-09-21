@@ -136,6 +136,7 @@ We enable rotational invariance with two different approaches. The first approac
 ## Real Robot Experiment
 We measure physical grasp performance with 4 different object sets. As shown in the figure below, the first row shows the object sets and the second row showns the configurations. From the left column
 to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects.
+<center>
 <div>
   <div class="column_quarter1">
     <img src="img/4a.png" style="width:95%">
@@ -154,11 +155,12 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
 </div>
+</center>
 
 <p></p><br>
 
 <p align="center">
-  <img src="img/real_table.png" width="800px">
+  <img src="img/real_table.png" width="500px">
 </p>
 
 The table above shows the grasp success rate (GSR that measures the ratio of successful grasps to total grasps) and declutter rate (DR that measures the ratio of objects removed successfully to the number of total objects presented) of
