@@ -29,6 +29,10 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
   float: left;
   width: 25.00%;
 }
+.column_quarter1 {
+  float: left;
+  width: 15.00%;
+}
 .column_l {
   float: left;
   width: 50.00%;
@@ -134,19 +138,19 @@ We measure physical grasp performance with 4 different object sets. As shown in 
 to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects. 
 We enable rotational invariance with two different approaches. The first approach is to use data augmentation and the second approach is to use an $\mathrm{SO}(3)$-equivariant model, Vector Neurons. As we show in our paper, leveraging $\mathrm{SO}(3)$ symmetries is beneficial to learn a grasp function.
 <div>
-  <div class="column_quarter">
+  <div class="column_quarter1">
     <img src="img/4a.png" style="width:95%">
     <p class="caption">10 packed objects</p>
   </div>
-  <div class="column_quarter">
+  <div class="column_quarter1">
     <img src="img/4b.png" style="width:93%">
     <p class="caption">10 pile objects </p>
   </div>
-  <div class="column_quarter">
-    <img src="img/4c.png" style="width:97.7%">
+  <div class="column_quarter1">
+    <img src="img/4c.png" style="width:97.5%">
     <p class="caption">20 test hard objects</p>
   </div>
-  <div class="column_quarter">
+  <div class="column_quarter1">
     <img src="img/4d.png" style="width:94%">
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
@@ -162,24 +166,22 @@ The table above shows the grasp success rate (GSR that measures the ratio of suc
 the real robot experiments.
 
 <div>
-  <div class="column_l">
-    <img src="img/packed_real.gif" style="width:99%">
-    <p class="caption">5 packed objects</p>
-  </div>
-  <div class="column_l">
-    <img src="img/pile_real.gif" style="width:99%">
-    <p class="caption">5 pile objects </p>
-  </div>
-</div>
 
-<div>
-  <div class="column_l">
+  <div class="column_quarter">
     <img src="img/test_hard_real.gif" style="width:99%">
     <p class="caption">10 test hard objects</p>
   </div>
-  <div class="column_l">
+  <div class="column_quarter">
     <img src="img/adversarial_real.gif" style="width:99%">
     <p class="caption">8 Berkeley adversarial objects</p>
+  </div>
+  <div class="column_quarter">
+    <img src="img/packed_real.gif" style="width:99%">
+    <p class="caption">5 packed objects</p>
+  </div>
+  <div class="column_quarter">
+    <img src="img/pile_real.gif" style="width:99%">
+    <p class="caption">5 pile objects </p>
   </div>
 </div>
 
