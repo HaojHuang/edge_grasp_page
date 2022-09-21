@@ -155,7 +155,7 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
     <p class="caption">10 pile objects </p>
   </div>
   <div class="column_quarter1">
-    <img src="img/4c.png" style="width:97.5%">
+    <img src="img/4c.png" style="width:97.2%">
     <p class="caption">20 test hard objects</p>
   </div>
   <div class="column_quarter1">
