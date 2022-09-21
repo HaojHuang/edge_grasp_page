@@ -37,7 +37,7 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
 .column_quarter2 {
   float: left;
   width: 20.00%;
-  margin: 0px 100px
+  margin-left: 100px
 }
 
 
