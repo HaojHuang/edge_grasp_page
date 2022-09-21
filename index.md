@@ -31,8 +31,16 @@ Given point cloud input, the problem of 6-DoF grasp pose detection is to identif
 }
 .column_quarter1 {
   float: left;
-  width: 15.00%;
+  width: 20.00%;
 }
+
+.column_quarter2 {
+  float: left;
+  width: 20.00%;
+  margin: 100px
+}
+
+
 .column_l {
   float: left;
   width: 50.00%;
@@ -138,7 +146,7 @@ We measure physical grasp performance with 4 different object sets. As shown in 
 to the right column, there are packed scenarios from 10 objects, pile scenarios from 10 objects, 20 test hard objects, and 12 berkeley adversarial objects.
 <center>
 <div>
-  <div class="column_quarter1">
+  <div class="column_quarter2">
     <img src="img/4a.png" style="width:95%">
     <p class="caption">10 packed objects</p>
   </div>
