@@ -127,7 +127,7 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
     <p class="caption">10 packed objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/4b.png" style="width:92%">
+    <img src="img/4b.png" style="width:93%">
     <p class="caption">10 pile objects </p>
   </div>
   <div class="column_quarter">
@@ -135,7 +135,7 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
     <p class="caption">20 test hard objects</p>
   </div>
   <div class="column_quarter">
-    <img src="img/4d.png" style="width:92%">
+    <img src="img/4d.png" style="width:93%">
     <p class="caption">12 Berkeley adversarial objects</p>
   </div>
 </div>
