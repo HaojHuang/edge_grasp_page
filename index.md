@@ -114,7 +114,7 @@ Finally, we implement our method on the real robot and test four different objec
 
 ### Sampling-based grasp detection network
 
-<IMG SRC=”img/figure1_2d_tra.png” ALIGN=”left” />
+
 Most sample-based grasp detection methods have a clear representation of grasp poses. Our 6-DoF edge grasp is defined with an approach point $p_a$ and a contact point $p_c$.
 Assuming that we can estimate the object surface normal $n_c$ at point $p_c$, $(p_a, p_c)$ defines a grasp orientation $R$ where the gripper fingers move parallel to the vector $n_c$ and the gripper approaches the object along the vector $a_{ac} = n_c \times (n_c \times (p_a - p_c))$.
 The gripper center $C$ is positioned such that $p_a$ is directly between the fingers and $p_c$ is at a desired point of contact on the finger, $C = p_a - \delta a_{ac}$. Here, $\delta = G_d + (p_a-p_c)^T a_{ac}$ denotes the distance between the center of the gripper and $p_a$ and $G_d$ denotes gripper depth.
