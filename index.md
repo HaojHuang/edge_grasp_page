@@ -69,7 +69,7 @@ img.rounded {
 
 
 
-## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF coming soon]()&nbsp;&nbsp;•&nbsp;&nbsp; [CODE coming soon]()&nbsp;&nbsp;•&nbsp;&nbsp;**Arxiv Preprint**
+## Paper &nbsp;&nbsp; &nbsp;&nbsp; [PDF](https://arxiv.org/abs/2211.00191)&nbsp;&nbsp;•&nbsp;&nbsp; [CODE coming soon]()&nbsp;&nbsp;•&nbsp;&nbsp;**Arxiv Preprint**
 
 <div style="width:100%; display:flex">
   
