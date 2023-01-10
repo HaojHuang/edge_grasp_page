@@ -137,7 +137,7 @@ considering approach positions and contact locations on the
 handle.
 
 <p align="center">
-  <img src="img/encoding_process.png" width="350px">
+  <img src="img/encoding_process.png" width="1000px">
 </p>
 
 ### Representation and $\mathrm{SE}(3)$ invariance
