@@ -124,8 +124,8 @@ Finally, we implement our method on the real robot and test four different objec
   <img src="img/figure1_2d_tra.png" width="350px">
 </p>
 
-Detecting 6-DoF antipodal grasping pose in the point cloud captured by a single camera view is not an easy taks due to the occulusion. We still has some useful information to construct a clear grasp pose, e.g., the gripper must 
-contact on one point; the surface normal direction of the contact point could support enough friction; parallel-jaw gripper is symmetric. Based on the clues, our 6-DoF edge grasp is defined with an approach point $p_a$ and a contact point $p_c$.
+Detecting 6-DoF antipodal grasping pose in the point cloud captured by a single camera view is not an easy taks due to the occulusion. We still have some useful information to construct a clear grasp pose, e.g., the gripper must 
+contact on one point; the surface normal direction of the contact point could support enough friction; parallel-jaw gripper is symmetric. Based on the clues, our 6-DoF edge grasp is clearly defined with an approach point $p_a$ and a contact point $p_c$.
 Assuming that we can estimate the object surface normal $n_c$ at point $p_c$, $(p_a, p_c)$ defines a grasp orientation $R$ where the gripper fingers move parallel to the vector $n_c$ and the gripper approaches the object along the vector $a_{ac} = n_c \times (n_c \times (p_a - p_c))$.
 The gripper center $C$ is positioned such that $p_a$ is directly between the fingers and $p_c$ is at a desired point of contact on the finger, $C = p_a - \delta a_{ac}$. Here, $\delta = G_d + (p_a-p_c)^T a_{ac}$ denotes the distance between the center of the gripper and $p_a$ and $G_d$ denotes gripper depth.
 
@@ -142,7 +142,7 @@ handle.
 
 ### Representation and $\mathrm{SE}(3)$ invariance
 It is natural to consider using **edge** that connects the approch point and the contact point to represent such grasp. Specically, we use a graph neural network to generate the local feature of the contatc point and the global feature of the approach point
-to build our edge feature. The encoding process is shown in the figure above. Let's define $P$ as the observed point cloud and $\alpha$ as the 6-DoF grasp. The grasp evaluation problem is to find a function $\Phi: (P, \alpha) \mapsto [0,1]$, that denotes the quality of grasp $\alpha$.
+to build our edge feature. The detailed encoding process is shown in the figure above. Let's define $P$ as the observed point cloud and $\alpha$ as the 6-DoF grasp. The grasp evaluation problem is to find a function $\Phi: (P, \alpha) \mapsto [0,1]$, that denotes the quality of grasp $\alpha$.
 Notice that $\Phi$ is invariant to translation and rotation in the sense that $\Phi(g \cdot P, g \cdot \alpha) = \Phi(P,\alpha)$ for an arbitrary $g \in \mathrm{SE}(3)$. In other words, the predicted quality of a grasp attempt should be invariant to transformation of the object to be grasped and the grasp pose by the same rotation and translation.
 The translation invariance could be achieved by trasnlating the point cloud. We enable rotational invariance with two different approaches. The first approach is to use data augmentation and the second approach is to use an $\mathrm{SO}(3)$-equivariant model, Vector Neurons. As we show in our paper, leveraging $\mathrm{SO}(3)$ symmetries is beneficial to learn a grasp function.
 
