@@ -213,10 +213,35 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
 The table above shows the grasp success rate (GSR that measures the ratio of successful grasps to total grasps) and declutter rate (DR that measures the ratio of objects removed successfully to the number of total objects presented) of
 the real robot experiments.
 
+
+<!-- Paper video. -->
+<div class="columns is-left has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
+
+<!-- Paper video. -->
+<div class="columns is-right has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
+
+
+
 <!-- Paper video. -->
 <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-5">Real-World Grasp Experiments-Video Summary</h2>
+        <h2 class="title is-4">Real-World Grasp Experiments-Video Summary</h2>
         <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/Wi3O-_pba7M"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -224,48 +249,41 @@ the real robot experiments.
       </div>
 </div>
 
-<!-- Paper video. -->
-<div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-5">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-</div>
+[//]: # (<div>)
 
-<!-- Paper video. -->
-<div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-5">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-</div>
+[//]: # (<div class="column_quarter">)
 
+[//]: # (    <img src="img/packed_real.gif" style="width:99%">)
 
+[//]: # (    <p class="caption">5 packed objects</p>)
 
-<div>
-<div class="column_quarter">
-    <img src="img/packed_real.gif" style="width:99%">
-    <p class="caption">5 packed objects</p>
-  </div>
-  <div class="column_quarter">
-    <img src="img/pile_real.gif" style="width:99%">
-    <p class="caption">5 pile objects </p>
-  </div>
-  <div class="column_quarter">
-    <img src="img/test_hard_real.gif" style="width:99%">
-    <p class="caption">10 test hard objects</p>
-  </div>
-  <div class="column_quarter">
-    <img src="img/adversarial_real.gif" style="width:99%">
-    <p class="caption">8 Berkeley adversarial objects</p>
-  </div>
-</div>
+[//]: # (  </div>)
+
+[//]: # (  <div class="column_quarter">)
+
+[//]: # (    <img src="img/pile_real.gif" style="width:99%">)
+
+[//]: # (    <p class="caption">5 pile objects </p>)
+
+[//]: # (  </div>)
+
+[//]: # (  <div class="column_quarter">)
+
+[//]: # (    <img src="img/test_hard_real.gif" style="width:99%">)
+
+[//]: # (    <p class="caption">10 test hard objects</p>)
+
+[//]: # (  </div>)
+
+[//]: # (  <div class="column_quarter">)
+
+[//]: # (    <img src="img/adversarial_real.gif" style="width:99%">)
+
+[//]: # (    <p class="caption">8 Berkeley adversarial objects</p>)
+
+[//]: # (  </div>)
+
+[//]: # (</div>)
 
 ## Citation
 ```
