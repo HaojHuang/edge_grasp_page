@@ -213,16 +213,39 @@ to the right column, there are packed scenarios from 10 objects, pile scenarios 
 The table above shows the grasp success rate (GSR that measures the ratio of successful grasps to total grasps) and declutter rate (DR that measures the ratio of objects removed successfully to the number of total objects presented) of
 the real robot experiments.
 
-
+<!-- Paper video. -->
 <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-2">Real-World Grasp Experiments-Summary</h2>
+        <h2 class="title is-2">Real-World Grasp Experiments-Video Summary</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/watch?v=Wi3O-_pba7M&list=PLtEvDdcT-Ai9L4HPG1F3YHGOUK4qi2Yiz&index=5"
+          <iframe src="https://www.youtube.com/embed/Wi3O-_pba7M"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
 </div>
+
+<!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/watch?v=C9aDiQ_7vrg&list=PLtEvDdcT-Ai9L4HPG1F3YHGOUK4qi2Yiz&index=3"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
+
+<!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/watch?v=C9aDiQ_7vrg&list=PLtEvDdcT-Ai9L4HPG1F3YHGOUK4qi2Yiz&index=2"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
+
 
 
 <div>
