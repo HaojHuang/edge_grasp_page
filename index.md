@@ -215,7 +215,7 @@ the real robot experiments.
 
 
 <!-- Paper video. -->
-<div class="columns is-left has-text-centered">
+<div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
         <div class="publication-video">
@@ -226,16 +226,27 @@ the real robot experiments.
 </div>
 
 <!-- Paper video. -->
-<div class="columns is-right has-text-centered">
+<div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
+          <iframe src="https://www.youtube.com/embed/8VXTKJx7eBI"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
 </div>
 
+
+<!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Real-Time Grasp Detection</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/VsSklG4Scto"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
 
 
 <!-- Paper video. -->
@@ -248,6 +259,8 @@ the real robot experiments.
         </div>
       </div>
 </div>
+
+
 
 [//]: # (<div>)
 
