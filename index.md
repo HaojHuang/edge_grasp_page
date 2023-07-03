@@ -216,7 +216,7 @@ the real robot experiments.
 <!-- Paper video. -->
 <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-2">Real-World Grasp Experiments-Video Summary</h2>
+        <h2 class="title is-5">Real-World Grasp Experiments-Video Summary</h2>
         <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/Wi3O-_pba7M"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -227,9 +227,9 @@ the real robot experiments.
 <!-- Paper video. -->
 <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-2">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
+        <h2 class="title is-5">Adversarial Objects-Edge Grasp Net-5 Runs</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/watch?v=C9aDiQ_7vrg&list=PLtEvDdcT-Ai9L4HPG1F3YHGOUK4qi2Yiz&index=3"
+          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -238,9 +238,9 @@ the real robot experiments.
 <!-- Paper video. -->
 <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-2">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
+        <h2 class="title is-5">Test-Hard Objects-VN-Edge Grasp Net-15 Runs</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/watch?v=C9aDiQ_7vrg&list=PLtEvDdcT-Ai9L4HPG1F3YHGOUK4qi2Yiz&index=2"
+          <iframe src="https://www.youtube.com/embed/C9aDiQ_7vrg"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
