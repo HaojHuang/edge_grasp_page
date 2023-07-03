@@ -146,11 +146,24 @@ img.rounded {
 
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Khoury College of Computer Science, Northeastern University
 
+
+<!-- Paper video. -->
+<div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Short Video Introduction</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/axCpZgNuP8U"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+</div>
+
 ## Introduction
 
 In the following parts, we first describe what is and why edge grasp. Then, introduce our representation of edge grasp step by step. After that, we explore and realize the $\mathrm{SE}(3)$ symmetry inside our representation to get better performance.
 The simulated experiment part of our paper is based on the simulator of  [VGN](https://github.com/ethz-asl/vgn), a simulation environment in PyBullet for 3D grasping.
 Finally, we implement our method on the real robot and test four different object sets. Check our paper for more details.
+
 
 ### Motivation and description
 
